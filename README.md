@@ -6,4 +6,4 @@ Button switches used in electronic circuits are often prone to generating multip
 * Timer (timer): Design of a timer that ticks every 2ms when enabled.
 * Debounced Output (debounce_fsm & delayed_debounce): Design of an FSM that produces a debounced signal. The debounced signal will have a 2ms delay compared to the original signal so as to reduce the risk of errors.
 * Edge Detector (edge_detector): Design of an FSM that detects the edges of the debounced signal. 
-* Top Module (imageProcessTop): This is the topmost module which is used to connect all other modules in the design.
+* Top Module (top): This is the topmost module which is used to connect all other modules in the design.
